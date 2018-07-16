@@ -4,5 +4,5 @@ exports.randomMuppet = (req, res) => {
   console.log('hello')
   const muppet = MUPPETS[Math.floor(Math.random()*MUPPETS.length)]
   console.log(`Returned another muppet! ${muppet}`)
-  res.send(`$$$$$${muppet``}`)
+  res.send(`$$$$$${hello``}`)
 }

@@ -1,8 +1,8 @@
-const MUPPETS = ["Kermit", "Miss Piggy", "Fozzie", "Animal", "Scooter", "Skeeter", "Rowlf", "Gonzo", "Bunsen", "Beaker"]
+const pokemon = ["caterpie", "butterfree", "whimsicott", "lapras", "bellsprout", "oddish", "dratini"]
 
-exports.randomMuppet = (req, res) => {
+exports.randomPokemon = (req, res) => {
   console.log('hello')
-  const muppet = MUPPETS[Math.floor(Math.random()*MUPPETS.length)]
-  console.log(`Returned another muppet! ${muppet}`)
-  res.send(`$$$$$${hello``}`)
+  const muppet = pokemon[Math.floor(Math.random()*pokemon.length)]
+  console.log(`Returned another muppet! ${pokemon}`)
+  res.send(`${hello}`)
 }

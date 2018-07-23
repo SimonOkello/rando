@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+
+::selection {
+  background: #ffb7b8;
+}
+::-moz-selection {
+  background: #ffb7b8;
+}
+
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  color: #8187d0;
+  margin: 0;
+}
+
+h1 {
+  color: #0d189e;
+  font-size: 2em;
+  margin-bottom: 32px;
+  padding-top: 24px;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+strong {
+  color: #000;
+}
+
+/* Intro */
+
+.intro {
+  display: inline-block;
+  width: 18em;
+  font-size: 1em;
+  border: 1px solid #8187d0;
+  padding: 16px;
+  margin: 16px;
+  color: #0d189e;
+}
+
+.intro p {
+  margin-top: 8px;
+}
+
+/* I desperately need this */
+
+.container {  
+  padding: 1em 1em 3em 1em;
+}
+
+.container-container {
+  display: flex;
+  align-items: self-end;
+}
+
+.ff-monospace {
+  font-family: monospace;
+}
+
+.border {
+  border: 1px solid #0d189e;
+}
+
+
+/* Some custom stuff */
+
+a {
+  color: #6EA9C3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #00dc00;
+}
+
+/* boxy styles */
+
+.boxy-container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 64px;
+}
+
+.boxy-big {
+  width: 100%;
+  margin-bottom: 32px;
+  padding-left: 12px;
+  border-left: 1px solid #8187d0;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+.boxy-big:hover {
+  border-left: 4px solid #ffb7b8;
+  transition: 100ms linear all;
+}
+
+.boxy-heading {
+  font-size: 0.9em;
+  font-family: monospace;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  color: #2f3ac4;
+}
+
+.boxy > li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.boxy-big > .thumb {
+  display: inline-block;
+  height: 200px;
+}
